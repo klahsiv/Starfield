@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starfield</title>
+    <!-- Linking P5 Library from local Machiene not present in Root Folder -->
+    <!-- <script src="file:///D:\Projects\Web-Development\Library\p5.js"></script>
+    <script src="file:///D:\Projects\Web-Development\Library\p5.sound.js"></script> -->
+    <!-- Use CDN link if you publish it on Github or any Other Site or paste Library Folder in Starfield Folder -->
+    <script src="../p5_Library/p5.js"></script>
+    <script src="../p5_Library/p5.sound.js"></script>
+
+    <script src="sketch.js"></script>
+    <script src="star.js"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        p{
+            text-align: center;
+        }
+        #board canvas{
+            border: 10px solid rgb(199, 56, 56);
+            display: block;
+            margin: 0 auto;
+
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <p>Welcome to Starfield</p>
+    <div id="board"></div>
+</body>
+</html>
